@@ -3,14 +3,14 @@ import requests
 from bs4 import BeautifulSoup as bs
 
 #your URL_BASE
-#exemple: 'https://mywebsite.com.br/'
+#example: 'https://mywebsite.com.br/'
 URL = ''
 
 #file type
 FILETYPE = '.pdf'
 
 #your css selector
-#exemple: 'body > .container > .row .col-sm-6 .panel > .panel-collapse > .panel-body > ul > li > a'
+#example: 'body > .container > .row .col-sm-6 .panel > .panel-collapse > .panel-body > ul > li > a'
 CSS_SELECTOR = ''
 
 def get(url):
