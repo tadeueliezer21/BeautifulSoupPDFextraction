@@ -1,6 +1,6 @@
 from tqdm import tqdm #progressbar
 import requests
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs 
 
 #your URL_BASE
 #example: 'https://mywebsite.com.br/'
